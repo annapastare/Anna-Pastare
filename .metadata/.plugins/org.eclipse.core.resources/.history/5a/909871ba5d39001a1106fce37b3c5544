@@ -1,0 +1,16 @@
+
+public class ControlFlowIf {
+
+	
+	public static void main(String[] args) {
+		int x = 10;
+		int y = 22;
+		
+		if (x>y){
+			System.out.println("X < Y");
+			
+		}
+
+	}
+
+}

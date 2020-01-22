@@ -1,0 +1,21 @@
+
+public class TestIfElseAndBlocks {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		System.out.println("*****************");
+		System.out.println("*****************");
+		
+		boolean test2 = false;
+		
+		if(test2){
+			System.out.println("TRUE");
+		}else{
+			System.out.println("FALSE");
+		}
+System.out.println("AFTER if else is bloack");
+	}
+
+}

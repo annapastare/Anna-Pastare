@@ -1,0 +1,22 @@
+
+public class PrintNumberInWords {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		int number = 40;
+		
+		if(number == 1){
+			System.out.println("ONE");
+		}else if (number > 1){
+			System.out.println("OTHER");
+		}else{
+			System.out.println("OTHER");
+		
+		}
+		
+
+	}
+
+}
