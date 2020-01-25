@@ -1,0 +1,13 @@
+package lv.anna.learnjavaclass;
+
+public class TestJavaProgram {
+
+	public static void main(String[] args) {
+		Box  boxObject = new Box();
+		double width = 20.23;
+		boxObject.width = width; 
+		
+		
+	}
+
+}

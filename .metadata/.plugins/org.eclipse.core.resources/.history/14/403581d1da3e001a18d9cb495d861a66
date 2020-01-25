@@ -1,0 +1,14 @@
+package lv.anna.learnjavaclass;
+
+public class TestJavaProgram {
+
+	public static void main(String[] args) {
+		int result = 0;
+		System.out.println(result);
+		Box  boxObject = new Box();
+		
+		//boxObject.height;
+		
+	}
+
+}

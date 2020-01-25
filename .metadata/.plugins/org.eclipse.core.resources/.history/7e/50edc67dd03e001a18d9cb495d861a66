@@ -1,0 +1,24 @@
+package lv.anna;
+
+public class LearningMethodsWithType {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		double area = getArea();
+		System.out.println("Area of rectangle: "+area);
+
+	}
+	
+	public static double getArea(){
+		double num1 = 20.3;
+		double num2 = 10.0;
+		double result = num1 * num2;
+		return result;
+		
+	}
+	
+
+}

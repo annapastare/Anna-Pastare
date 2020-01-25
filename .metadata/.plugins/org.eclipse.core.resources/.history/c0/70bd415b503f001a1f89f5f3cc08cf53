@@ -1,0 +1,39 @@
+package lv.anna.player;
+
+public class Footballplayer {
+	string name;
+	string position; 
+	int shirtNumber;
+	boolean build;
+	long height;
+	int weight; 
+	
+	public string getName(){
+		return name;
+	}
+	public string getPosition(){
+		return Position;
+	}
+	
+	public int getShirtNumber(){
+		return shirtNumber;
+	}
+	
+	public boolean getBuild(){
+		return build;
+	}
+	
+	public long getHeight(){
+		return height;
+	}
+	
+	public int getWeight(){
+		return weight;
+	}
+
+	public void setName(String name){
+		this.name = name;
+		
+		
+	}
+	}

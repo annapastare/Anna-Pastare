@@ -1,0 +1,20 @@
+package lv.anna;
+
+public class LearningMethodsWithType {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		getArea();
+
+	}
+	
+	public static double getArea(){
+		return 10.0 * 20.3;
+		
+	}
+	
+
+}

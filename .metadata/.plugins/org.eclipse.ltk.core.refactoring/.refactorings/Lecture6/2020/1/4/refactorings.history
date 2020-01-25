@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;lv.anna.RefractorMethod.java&apos; to &apos;RefactorMethod.java&apos;&#x0A;- Original project: &apos;Lecture6&apos;&#x0A;- Original element: &apos;lv.anna.RefractorMethod.java&apos;&#x0A;- Renamed element: &apos;lv.anna.RefactorMethod.java&apos;" description="Rename compilation unit &apos;RefractorMethod.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;lv.anna{RefractorMethod.java" name="RefactorMethod.java" references="false" stamp="1579890054554" version="1.0"/>
+</session>

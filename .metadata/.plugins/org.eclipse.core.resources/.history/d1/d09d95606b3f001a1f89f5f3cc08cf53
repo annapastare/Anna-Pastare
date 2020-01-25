@@ -1,0 +1,15 @@
+package lv.anna.learnstring;
+
+public class TestStringClass {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		String str = "Index";
+		
+		System.out.println(str);
+
+	}
+
+}

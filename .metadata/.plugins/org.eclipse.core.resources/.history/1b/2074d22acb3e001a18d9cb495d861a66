@@ -1,0 +1,21 @@
+package lv.anna;
+
+public class LearningMethodsss {
+
+
+		
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		 getMyName();
+		
+	}
+	public static void getMyName(){
+		System.out.println("My name is Anna");
+	}
+	public static void getMyCity(){
+	}
+	public static void getIHaveCat(){
+	}
+
+
+}

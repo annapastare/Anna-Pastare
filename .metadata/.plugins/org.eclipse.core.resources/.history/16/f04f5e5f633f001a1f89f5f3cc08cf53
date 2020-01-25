@@ -1,0 +1,23 @@
+package lv.anna.repeat;
+
+import java.util.Scanner;
+
+public class TestJava {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		
+		System.out.println("Input value ");
+		int inputvalue;
+		
+		
+		while(input.hasNextInt()){
+			
+		inputvalue = input.nextInt();
+		System.out.println("Assign with type int: "+inputvalue);
+		
+	}
+		
+	}
+
+}

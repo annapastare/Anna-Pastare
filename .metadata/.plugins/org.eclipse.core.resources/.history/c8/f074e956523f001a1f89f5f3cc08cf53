@@ -1,0 +1,16 @@
+package lv.anna;
+import lv.anna.player.FootballPlayer;
+
+public class TestJava {
+
+
+	public static void main(String[] args) {
+		FootballPlayer player = new FootballPlayer("Ronaldo", "Forward", 7, true, 186, 83);
+		//player.setName("Ronaldo");
+		player.setHeight(185L);
+		System.out.println(player.getName());
+		
+
+	}
+
+}
