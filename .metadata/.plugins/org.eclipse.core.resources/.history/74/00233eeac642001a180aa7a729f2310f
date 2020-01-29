@@ -1,0 +1,17 @@
+package lv.anna;
+
+public class TestPerson {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		String[]strArr = new String[12];
+		strArr[0] = "Sport";
+		
+		System.out.println(strArr[0]);
+		
+
+	}
+
+}

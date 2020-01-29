@@ -1,0 +1,5 @@
+package lv.anna.users;
+
+public class Person {
+
+}

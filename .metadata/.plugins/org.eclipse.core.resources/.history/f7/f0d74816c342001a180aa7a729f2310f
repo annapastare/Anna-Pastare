@@ -1,0 +1,25 @@
+package lv.anna.users;
+
+public class Person {
+	private String name;
+	private String address;
+	
+	public Person(){
+		this.name = name;
+		this.address = address;
+	}
+
+	public String getAddress() {
+		return address;
+	}
+
+	public void setAddress(String address) {
+		this.address = address;
+	}
+
+	public String getName() {
+		return name;
+	}
+	
+
+}
