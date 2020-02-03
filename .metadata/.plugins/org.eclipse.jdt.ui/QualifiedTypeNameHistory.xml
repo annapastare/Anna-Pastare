@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="lv.anna.geometricfigures.Circle"/>
-<fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="lv.anna.bookstore.Author"/>
 <fullyQualifiedTypeName name="lv.anna.bookstore.Book"/>
 <fullyQualifiedTypeName name="lv.anna.figure.Rectangle"/>
+<fullyQualifiedTypeName name="lv.anna.Graph.Point2D"/>
+<fullyQualifiedTypeName name="lv.anna.Graph.Point3D"/>
+<fullyQualifiedTypeName name="lv.anna.Graph.Point4D"/>
+<fullyQualifiedTypeName name="lv.anna.users.Teacher"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="java.util.Collections"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
 </qualifiedTypeNameHistroy>

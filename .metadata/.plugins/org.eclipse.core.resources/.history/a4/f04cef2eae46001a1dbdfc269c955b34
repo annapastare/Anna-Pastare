@@ -1,0 +1,19 @@
+package lv.anna;
+
+import java.util.ArrayList;
+
+public class TestArrayList {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		String[] arr = new String[2];
+		System.out.println(arr.length);
+		ArrayList<String> array = new ArrayList <>();
+		System.out.println(array.size());
+		
+
+	}
+
+}

@@ -1,0 +1,21 @@
+package lv.anna.module;
+
+import java.util.ArrayList;
+
+public class League {
+private String name;
+private ArrayList<Team> nameOfTeam;
+public String getName() {
+	return name;
+}
+public void setName(String name) {
+	this.name = name;
+}
+public ArrayList<Team> getNameOfTeam() {
+	return nameOfTeam;
+}
+public void setNameOfTeam(ArrayList<Team> nameOfTeam) {
+	this.nameOfTeam = nameOfTeam;
+} 
+
+}

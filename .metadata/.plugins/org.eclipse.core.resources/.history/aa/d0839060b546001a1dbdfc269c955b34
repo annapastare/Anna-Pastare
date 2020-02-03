@@ -1,0 +1,19 @@
+package lv.anna;
+
+import java.util.ArrayList;
+
+public class TestArraysWithObject {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		Integer intObject = 40;
+		Double doubleObj = 40.24;
+		System.out.println(intObj);
+		
+		ArrayList<int> cars = new ArrayList<int> ();
+
+	}
+
+}

@@ -1,0 +1,27 @@
+package lv.anna;
+
+import java.util.ArrayList;
+
+public class TaskTestArray {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+			ArrayList<String> cars = new ArrayList<String> ();
+			cars.add("Volvo");
+			cars.add("BMW");
+			cars.add("Ford");
+			cars.add("Mazda");
+			
+			System.out.println();
+			for(String car : cars)
+				System.out.println(car);
+	}
+
+
+
+	}
+	
+			
+
