@@ -1,0 +1,31 @@
+package lv.anna.inputoutput;
+
+import java.io.File;
+import java.util.Scanner;
+
+public class TestChangeStringToFile {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) throws Exception{
+		String defaultStr = "Hello user userName";
+		
+		String lastStr = defaultStr.replace("userName", "");
+		
+		
+		System.out.println(defaultStr+"Anna");
+		File file = new File("DefaultText.txt");
+		Scanner sc = new Scanner(file);
+		String stringFromTextFile = "";
+		while(sc.hasNextLine()){
+		stringFromTextFile = sc.nextLine();
+		}
+		System.out.println("Check: "+stringFromTextFile);
+		System.out.println(lastStr.replace("userName", "Anna");
+			
+		}
+				
+
+	}
+
