@@ -3,10 +3,10 @@ package lv.anna.module;
 import java.util.ArrayList;
 
 public class Team {
-	String name;
+	private String name;
 	public int wins;
 	public int losses;
-	public int ties;
+	private int ties;
 	
 	public Team(String nameOfTeam){
 		this.name = nameOfTeam;
@@ -54,13 +54,9 @@ public class Team {
 	}
 	
 	public int totalPoint(){
-		return (this.wins * 2 + this.ties); 
+		return (this.wins * 2 +this.ties); 
 	}
 	
-	public int teamWithName(String nameToLookFor){
-		int teamCreated = 0;
-		return teamCreated;
-		
-	}
+	
 
 }

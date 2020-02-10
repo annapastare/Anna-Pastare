@@ -25,8 +25,6 @@ public void setNameOfTeam(ArrayList<Team> nameOfTeam) {
 public void recordWinAndLoss(String winnerName, String loserName){
 	Team winner;
 	Team loser;
-	winner = this.teamWithName(winnerName);
-	loser = this.teamWithName(loserName);
 	
 	winner.wins++;
 	loser.losses++;
@@ -43,7 +41,7 @@ public Team teamWithName(String nameToLookFor){
 			teamCreated = team;
 		}
 	}
-	return null;
+	return teamCreated;
 }
 
 @Override

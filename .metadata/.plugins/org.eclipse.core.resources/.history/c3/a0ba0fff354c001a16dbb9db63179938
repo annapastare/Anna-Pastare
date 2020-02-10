@@ -3,7 +3,7 @@ package lv.anna.module;
 import java.util.ArrayList;
 
 public class Team {
-	String name;
+	private String name;
 	public int wins;
 	public int losses;
 	public int ties;
@@ -57,10 +57,6 @@ public class Team {
 		return (this.wins * 2 + this.ties); 
 	}
 	
-	public int teamWithName(String nameToLookFor){
-		int teamCreated = 0;
-		return teamCreated;
-		
-	}
+	
 
 }

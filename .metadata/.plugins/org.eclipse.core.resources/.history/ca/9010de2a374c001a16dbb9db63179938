@@ -1,0 +1,33 @@
+package lv.anna.test;
+
+import lv.anna.module.League;
+
+public class TestTeamAndLeague {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Team ska = new Team("SKA");
+		Team cska = new Team("CSKA");
+		Team dinamo = new Team("DINAMO");
+		Team spartak = new Team("SPARTAK");
+		Team torpedo = new Team("TORPEDO");
+		Team jokerit = new Team("JOKERIT");
+		
+		System.out.println("Team total point: "+ska.totalPoint());
+		
+		khlTeam.add(ska);
+		khlTeam.add(cska);
+		khlTeam.add(dinamo);
+		khlTeam.add(spartak);
+		khlTeam.add(torpedo);
+		khlTeam.add(jokerit);
+		League khl = new League("KHL");
+		khl.recordWinAndLoss(cska, dinamo);
+		khl.recordWinAndLoss(ska, dinamo);
+
+	}
+
+}

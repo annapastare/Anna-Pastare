@@ -43,7 +43,7 @@ public Team teamWithName(String nameToLookFor){
 			teamCreated = team;
 		}
 	}
-	return null;
+	return teamCreated;
 }
 
 @Override

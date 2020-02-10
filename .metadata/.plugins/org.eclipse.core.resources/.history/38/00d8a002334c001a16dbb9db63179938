@@ -22,28 +22,13 @@ public ArrayList<Team> getNameOfTeam() {
 public void setNameOfTeam(ArrayList<Team> nameOfTeam) {
 	this.nameOfTeam = nameOfTeam;
 }
-public void recordWinAndLoss(String winnerName, String loserName){
-	Team winner;
-	Team loser;
-	winner = this.teamWithName(winnerName);
-	loser = this.teamWithName(loserName);
-	
+public void recordWinAndLoss(Team winner, Team loser){
 	winner.wins++;
 	loser.losses++;
 }
 public void recordOnlyTies(Team teamA, Team teamB){
 	teamA.ties++;
 	teamB.ties++;
-}
-
-public Team teamWithName(String nameToLookFor){
-	Team teamCreated = null;
-	for(Team team : this.nameOfTeam){
-		if(team.name.equals(nameToLookFor)){
-			teamCreated = team;
-		}
-	}
-	return null;
 }
 
 @Override

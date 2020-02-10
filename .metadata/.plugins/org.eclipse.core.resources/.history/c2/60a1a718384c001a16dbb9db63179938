@@ -22,12 +22,7 @@ public ArrayList<Team> getNameOfTeam() {
 public void setNameOfTeam(ArrayList<Team> nameOfTeam) {
 	this.nameOfTeam = nameOfTeam;
 }
-public void recordWinAndLoss(String winnerName, String loserName){
-	Team winner;
-	Team loser;
-	winner = this.teamWithName(winnerName);
-	loser = this.teamWithName(loserName);
-	
+public void recordWinAndLoss(Team winner, Team loser){
 	winner.wins++;
 	loser.losses++;
 }
@@ -43,7 +38,7 @@ public Team teamWithName(String nameToLookFor){
 			teamCreated = team;
 		}
 	}
-	return null;
+	return teamCreated;
 }
 
 @Override
