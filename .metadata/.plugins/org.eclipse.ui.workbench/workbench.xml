@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="21" version="2.0">
+<workbench progressCount="15" version="2.0">
 <workbenchAdvisor/>
 <window height="771" maximized="true" width="1012" x="146" y="5">
 <fastViewData fastViewLocation="1024"/>
@@ -20,7 +20,7 @@
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="232" y="30"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.jdt.ui.ClassFileEditorNoSource" itemType="typePlaceholder" x="-1" y="-1"/>
-<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
@@ -29,10 +29,21 @@
 <editorArea activeWorkbook="DefaultEditorWorkbook">
 <info part="DefaultEditorWorkbook">
 <folder appearance="1" expanded="2">
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+</presentation>
 </folder>
 </info>
 </editorArea>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="horoscopeSigns.java" partName="horoscopeSigns.java" path="/home/student/workspace/DailyHoroscope/src/lv/anna/horoscope/horoscopeSigns.java" title="horoscopeSigns.java" tooltip="DailyHoroscope/src/lv/anna/horoscope/horoscopeSigns.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/DailyHoroscope/src/lv/anna/horoscope/horoscopeSigns.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2444" selectionTopPixel="1147"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestReadFile.java" partName="TestReadFile.java" path="/home/student/workspace/Lecture13/src/lv/anna/inputoutput/TestReadFile.java" title="TestReadFile.java" tooltip="Lecture13/src/lv/anna/inputoutput/TestReadFile.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Lecture13/src/lv/anna/inputoutput/TestReadFile.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="250"/>
+</editor>
 </editors>
 <views>
 <view id="org.eclipse.jdt.ui.JavadocView" partName="Javadoc">
@@ -72,6 +83,10 @@
 </view>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
+<expanded>
+<category IMemento.internal.id="Errors"/>
+<category IMemento.internal.id="Warnings"/>
+</expanded>
 <columnWidths org.eclipse.ui.ide.locationField="105" org.eclipse.ui.ide.markerType="886" org.eclipse.ui.ide.pathField="140" org.eclipse.ui.ide.resourceField="105" org.eclipse.ui.ide.severityAndDescriptionField="350"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
@@ -111,7 +126,7 @@
 <viewState/>
 </view>
 </views>
-<perspectives activePart="org.eclipse.jdt.ui.PackageExplorer" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
+<perspectives activePart="org.eclipse.jdt.ui.CompilationUnitEditor" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.ui.internal.ide.application.ResourcePerspective" id="org.eclipse.ui.resourcePerspective" label="Resource"/>
 <alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
@@ -393,7 +408,170 @@
 </perspective>
 </perspectives>
 <workingSets/>
-<navigationHistory/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/DailyHoroscope/src/lv/anna/horoscope/horoscopeSigns.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Lecture3/src/IfElseIf.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Lecture11/src/lv/anna/TestScannerInputArray.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Lecture13/src/lv/anna/inputoutput/TestFile.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Lecture13/src/lv/anna/inputoutput/TestReadFile.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Lecture13/src/lv/anna/inputoutput/TestFileReader.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Lecture11/src/lv/anna/TaskTestArray.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Lecture11/src/lv/anna/TestArrayList.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Lecture11/src/lv/anna/TestArraysWithObject.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Lecture11/src/lv/anna/TestScannerInputArray.java"/>
+</editors>
+<item historyLabel="IfElseIf.java" index="1">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="horoscopeSigns.java" index="0">
+<position info="not_deleted" x="474" y="0"/>
+</item>
+<item historyLabel="horoscopeSigns.java" index="0">
+<position info="not_deleted" x="441" y="0"/>
+</item>
+<item historyLabel="horoscopeSigns.java" index="0">
+<position info="not_deleted" x="472" y="0"/>
+</item>
+<item historyLabel="horoscopeSigns.java" index="0">
+<position info="not_deleted" x="510" y="0"/>
+</item>
+<item historyLabel="horoscopeSigns.java" index="0">
+<position info="not_deleted" x="2450" y="0"/>
+</item>
+<item historyLabel="horoscopeSigns.java" index="0">
+<position info="not_deleted" x="2446" y="0"/>
+</item>
+<item historyLabel="horoscopeSigns.java" index="0">
+<position info="not_deleted" x="554" y="0"/>
+</item>
+<item historyLabel="horoscopeSigns.java" index="0">
+<position info="not_deleted" x="583" y="0"/>
+</item>
+<item historyLabel="horoscopeSigns.java" index="0">
+<position info="not_deleted" x="162" y="0"/>
+</item>
+<item historyLabel="horoscopeSigns.java" index="0">
+<position info="not_deleted" x="182" y="0"/>
+</item>
+<item historyLabel="horoscopeSigns.java" index="0">
+<position info="not_deleted" x="162" y="0"/>
+</item>
+<item historyLabel="horoscopeSigns.java" index="0">
+<position info="not_deleted" x="501" y="0"/>
+</item>
+<item historyLabel="horoscopeSigns.java" index="0">
+<position info="not_deleted" x="717" y="0"/>
+</item>
+<item historyLabel="horoscopeSigns.java" index="0">
+<position info="not_deleted" x="822" y="0"/>
+</item>
+<item historyLabel="horoscopeSigns.java" index="0">
+<position info="not_deleted" x="2456" y="0"/>
+</item>
+<item historyLabel="TestScannerInputArray.java" index="2">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="TestFile.java" index="3">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="TestReadFile.java" index="4">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="TestFile.java" index="3">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="TestReadFile.java" index="4">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="horoscopeSigns.java" index="0">
+<position info="not_deleted" x="2449" y="0"/>
+</item>
+<item historyLabel="TestReadFile.java" index="4">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="horoscopeSigns.java" index="0">
+<position info="not_deleted" x="2449" y="0"/>
+</item>
+<item historyLabel="TestReadFile.java" index="4">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="horoscopeSigns.java" index="0">
+<position info="not_deleted" x="2449" y="0"/>
+</item>
+<item historyLabel="TestReadFile.java" index="4">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="TestFileReader.java" index="5">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="TestReadFile.java" index="4">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="TestFileReader.java" index="5">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="horoscopeSigns.java" index="0">
+<position info="not_deleted" x="2449" y="0"/>
+</item>
+<item historyLabel="TestFileReader.java" index="5">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="horoscopeSigns.java" index="0">
+<position info="not_deleted" x="2449" y="0"/>
+</item>
+<item historyLabel="TestReadFile.java" index="4">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="horoscopeSigns.java" index="0">
+<position info="not_deleted" x="2449" y="0"/>
+</item>
+<item historyLabel="horoscopeSigns.java" index="0">
+<position info="not_deleted" x="1735" y="0"/>
+</item>
+<item historyLabel="horoscopeSigns.java" index="0">
+<position/>
+</item>
+<item historyLabel="horoscopeSigns.java" index="0">
+<position info="not_deleted" x="2447" y="0"/>
+</item>
+<item historyLabel="horoscopeSigns.java" index="0">
+<position/>
+</item>
+<item historyLabel="horoscopeSigns.java" index="0">
+<position info="not_deleted" x="1905" y="0"/>
+</item>
+<item historyLabel="TestReadFile.java" index="4">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="TaskTestArray.java" index="6">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="TestArrayList.java" index="7">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="TestArraysWithObject.java" index="8">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="TestScannerInputArray.java" index="9">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="TestArraysWithObject.java" index="8">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="TestArrayList.java" index="7">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="TaskTestArray.java" index="6">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="TestReadFile.java" index="4">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item active="true" historyLabel="horoscopeSigns.java" index="0">
+<position info="not_deleted" x="2455" y="0"/>
+</item>
+</navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
 <workbenchWindowAdvisor/>
@@ -414,35 +592,20 @@
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditorNoSource" name="Object.class" tooltip="java.lang.Object">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=League/\/usr\/lib\/jvm\/java-8-openjdk-amd64\/jre\/lib\/rt.jar&lt;java.lang(Object.class"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestScannerInputArray.java" tooltip="Lecture11/src/lv/anna/TestScannerInputArray.java">
+<persistable path="/Lecture11/src/lv/anna/TestScannerInputArray.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestTeamAndLeague.java" tooltip="League/src/lv/anna/test/TestTeamAndLeague.java">
-<persistable path="/League/src/lv/anna/test/TestTeamAndLeague.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestArraysWithObject.java" tooltip="Lecture11/src/lv/anna/TestArraysWithObject.java">
+<persistable path="/Lecture11/src/lv/anna/TestArraysWithObject.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="League.java" tooltip="League/src/lv/anna/module/League.java">
-<persistable path="/League/src/lv/anna/module/League.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestArrayList.java" tooltip="Lecture11/src/lv/anna/TestArrayList.java">
+<persistable path="/Lecture11/src/lv/anna/TestArrayList.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Team.java" tooltip="League/src/lv/anna/module/Team.java">
-<persistable path="/League/src/lv/anna/module/Team.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestChangeStringToFile.java" tooltip="Lecture13/src/lv/anna/inputoutput/TestChangeStringToFile.java">
-<persistable path="/Lecture13/src/lv/anna/inputoutput/TestChangeStringToFile.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestCreateAndWriteFile.java" tooltip="Lecture13/src/lv/anna/inputoutput/TestCreateAndWriteFile.java">
-<persistable path="/Lecture13/src/lv/anna/inputoutput/TestCreateAndWriteFile.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestFileWriter.java" tooltip="Lecture13/src/lv/anna/inputoutput/TestFileWriter.java">
-<persistable path="/Lecture13/src/lv/anna/inputoutput/TestFileWriter.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestScannerFileRead.java" tooltip="Lecture13/src/lv/anna/inputoutput/TestScannerFileRead.java">
-<persistable path="/Lecture13/src/lv/anna/inputoutput/TestScannerFileRead.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TaskTestArray.java" tooltip="Lecture11/src/lv/anna/TaskTestArray.java">
+<persistable path="/Lecture11/src/lv/anna/TaskTestArray.java"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestFileReader.java" tooltip="Lecture13/src/lv/anna/inputoutput/TestFileReader.java">
 <persistable path="/Lecture13/src/lv/anna/inputoutput/TestFileReader.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestBufferRead.java" tooltip="Lecture13/src/lv/anna/inputoutput/TestBufferRead.java">
-<persistable path="/Lecture13/src/lv/anna/inputoutput/TestBufferRead.java"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestReadFile.java" tooltip="Lecture13/src/lv/anna/inputoutput/TestReadFile.java">
 <persistable path="/Lecture13/src/lv/anna/inputoutput/TestReadFile.java"/>
@@ -450,14 +613,29 @@
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestFile.java" tooltip="Lecture13/src/lv/anna/inputoutput/TestFile.java">
 <persistable path="/Lecture13/src/lv/anna/inputoutput/TestFile.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestTwoArrays.java" tooltip="Lecture13/src/lv/anna/TestTwoArrays.java">
-<persistable path="/Lecture13/src/lv/anna/TestTwoArrays.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="IfElseAndTernaryOperator.java" tooltip="Lecture3/src/IfElseAndTernaryOperator.java">
+<persistable path="/Lecture3/src/IfElseAndTernaryOperator.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestArraysWithObject.java" tooltip="Lecture11/src/lv/anna/TestArraysWithObject.java">
-<persistable path="/Lecture11/src/lv/anna/TestArraysWithObject.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="IfElseTasks.java" tooltip="Lecture3/src/IfElseTasks.java">
+<persistable path="/Lecture3/src/IfElseTasks.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TaskTestArray.java" tooltip="Lecture11/src/lv/anna/TaskTestArray.java">
-<persistable path="/Lecture11/src/lv/anna/TaskTestArray.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="IfElseIf.java" tooltip="Lecture3/src/IfElseIf.java">
+<persistable path="/Lecture3/src/IfElseIf.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="horoscopeSigns.java" tooltip="DailyHoroscope/src/lv/anna/horoscope/horoscopeSigns.java">
+<persistable path="/DailyHoroscope/src/lv/anna/horoscope/horoscopeSigns.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="horoscope.java" tooltip="DailyHoroscope/src/lv/anna/horoscope/horoscope.java">
+<persistable path="/DailyHoroscope/src/lv/anna/horoscope/horoscope.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="vendingMachine.java" tooltip="VendingMachine/src/vendingMachine/vendingMachine.java">
+<persistable path="/VendingMachine/src/vendingMachine/vendingMachine.java"/>
+</file>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditorNoSource" name="Object.class" tooltip="java.lang.Object">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=League/\/usr\/lib\/jvm\/java-8-openjdk-amd64\/jre\/lib\/rt.jar&lt;java.lang(Object.class"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestTeamAndLeague.java" tooltip="League/src/lv/anna/test/TestTeamAndLeague.java">
+<persistable path="/League/src/lv/anna/test/TestTeamAndLeague.java"/>
 </file>
 </mruList>
 </workbench>
