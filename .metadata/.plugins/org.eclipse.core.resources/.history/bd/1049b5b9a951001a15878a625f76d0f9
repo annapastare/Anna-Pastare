@@ -1,0 +1,14 @@
+package lv.anna.horoscope;
+import java.util.Scanner;
+
+public class horoscopeSigns {
+
+	
+	public static void main(String[] args) {
+		int day;
+		String month;
+		
+
+	}
+
+}

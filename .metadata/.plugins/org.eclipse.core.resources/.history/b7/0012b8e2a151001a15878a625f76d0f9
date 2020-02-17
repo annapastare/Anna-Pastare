@@ -1,0 +1,13 @@
+package vendingMachine;
+
+public class vendingMachine {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
