@@ -32,17 +32,22 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
 <part id="1"/>
+<part id="2"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="horoscopeSigns.java" partName="horoscopeSigns.java" path="/home/student/workspace/DailyHoroscope/src/lv/anna/horoscope/horoscopeSigns.java" title="horoscopeSigns.java" tooltip="DailyHoroscope/src/lv/anna/horoscope/horoscopeSigns.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/DailyHoroscope/src/lv/anna/horoscope/horoscopeSigns.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="5093" selectionTopPixel="0"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="HoroscopeSigns.java" partName="HoroscopeSigns.java" path="/home/student/workspace/DailyHoroscope/src/lv/anna/horoscope/HoroscopeSigns.java" title="HoroscopeSigns.java" tooltip="DailyHoroscope/src/lv/anna/horoscope/HoroscopeSigns.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/DailyHoroscope/src/lv/anna/horoscope/HoroscopeSigns.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2102" selectionTopPixel="123"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestReadFile.java" partName="TestReadFile.java" path="/home/student/workspace/Lecture13/src/lv/anna/inputoutput/TestReadFile.java" title="TestReadFile.java" tooltip="Lecture13/src/lv/anna/inputoutput/TestReadFile.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Lecture13/src/lv/anna/inputoutput/TestReadFile.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="250"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestUserInputCheck.java" partName="TestUserInputCheck.java" path="/home/student/workspace/DailyHoroscope/src/lv/anna/horoscope/TestUserInputCheck.java" title="TestUserInputCheck.java" tooltip="DailyHoroscope/src/lv/anna/horoscope/TestUserInputCheck.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/DailyHoroscope/src/lv/anna/horoscope/TestUserInputCheck.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="505" selectionTopPixel="0"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestUserDate.java" partName="TestUserDate.java" path="/home/student/workspace/DailyHoroscope/src/lv/anna/horoscope/TestUserDate.java" title="TestUserDate.java" tooltip="DailyHoroscope/src/lv/anna/horoscope/TestUserDate.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/DailyHoroscope/src/lv/anna/horoscope/TestUserDate.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="286" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
@@ -265,7 +270,7 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@7d4a95d4" ratio="0.82666665" ratioLeft="620" ratioRight="130" relationship="4" relative="org.eclipse.ui.internal.ViewStack@3b641567">
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@7d4a95d4" ratio="0.6853333" ratioLeft="514" ratioRight="236" relationship="4" relative="org.eclipse.ui.internal.ViewStack@3b641567">
 <folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
@@ -353,52 +358,68 @@
 <show_view_action id="org.eclipse.jdt.debug.ui.DisplayView"/>
 <perspective_action id="org.eclipse.jdt.ui.JavaPerspective"/>
 <perspective_action id="org.eclipse.jdt.ui.JavaBrowsingPerspective"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
 <hide_toolbar_item_id id="org.eclipse.debug.ui.commands.RunToLine"/>
 <hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
-<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
 <view id="org.eclipse.ui.console.ConsoleView"/>
 <view id="org.eclipse.ui.views.TaskList"/>
 <view id="org.eclipse.debug.ui.DebugView"/>
-<view id="org.eclipse.debug.ui.VariableView"/>
 <view id="org.eclipse.debug.ui.BreakpointView"/>
+<view id="org.eclipse.debug.ui.VariableView"/>
 <view id="org.eclipse.ui.views.ContentOutline"/>
 <fastViewBars/>
-<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder activePageID="org.eclipse.debug.ui.DebugView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.debug.ui.DebugView" label="Debug"/>
+<layout>
+<mainWindow>
+<info folder="true" part="org.eclipse.debug.internal.ui.NavigatorFolderView">
+<folder activePageID="org.eclipse.debug.ui.DebugView" appearance="2" expanded="2">
+<page content="org.eclipse.debug.ui.DebugView" label="Debug"/>
 <page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.ui.PackageExplorer" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.ui.TypeHierarchy" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="stickyFolderRight" ratio="0.7496791" ratioLeft="1168" ratioRight="390" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<info folder="true" part="stickyFolderRight" ratio="0.7496791" ratioLeft="1168" ratioRight="390" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.debug.internal.ui.ConsoleFolderView" ratio="0.749004" ratioLeft="564" ratioRight="189" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<info folder="true" part="org.eclipse.debug.internal.ui.ConsoleFolderView" ratio="0.749004" ratioLeft="564" ratioRight="189" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
 <page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
 <page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.PropertySheet" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.debug.ui.DisplayView" label="LabelNotFound"/>
 <page content="org.eclipse.search.SearchResultView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
 <part id="1"/>
 </presentation>
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.44858155" ratioLeft="253" ratioRight="311" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView"/>
-<info folder="true" part="org.eclipse.debug.internal.ui.OutlineFolderView" ratio="0.7496791" ratioLeft="1168" ratioRight="390" relationship="2" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<info folder="true" part="org.eclipse.debug.internal.ui.OutlineFolderView" ratio="0.7496791" ratioLeft="1168" ratioRight="390" relationship="2" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
 <page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.debug.internal.ui.ToolsFolderView" ratio="0.5" ratioLeft="779" ratioRight="779" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder activePageID="org.eclipse.debug.ui.VariableView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.debug.ui.BreakpointView" label="Breakpoints"/>
+<info folder="true" part="org.eclipse.debug.internal.ui.ToolsFolderView" ratio="0.5" ratioLeft="779" ratioRight="779" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
+<folder activePageID="org.eclipse.debug.ui.BreakpointView" appearance="2" expanded="2">
+<page content="org.eclipse.debug.ui.BreakpointView" label="Breakpoints"/>
 <page content="org.eclipse.debug.ui.VariableView" label="Variables"/>
 <page content="org.eclipse.debug.ui.ExpressionView" label="LabelNotFound"/>
 <page content="org.eclipse.debug.ui.RegisterView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
 <part id="1"/>
 </presentation>
 </folder>
@@ -411,164 +432,159 @@
 <navigationHistory>
 <editors>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/DailyHoroscope/src/lv/anna/horoscope/horoscopeSigns.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Lecture11/src/lv/anna/TestScannerInputArray.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Lecture13/src/lv/anna/inputoutput/TestFile.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Lecture13/src/lv/anna/inputoutput/TestReadFile.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Lecture13/src/lv/anna/inputoutput/TestFileReader.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Lecture11/src/lv/anna/TaskTestArray.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Lecture11/src/lv/anna/TestArrayList.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Lecture11/src/lv/anna/TestArraysWithObject.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Lecture11/src/lv/anna/TestScannerInputArray.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/DailyHoroscope/src/lv/anna/horoscope/HoroscopeSigns.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/DailyHoroscope/src/lv/anna/horoscope/TestUserInputCheck.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/DailyHoroscope/src/lv/anna/horoscope/TestUserDate.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Lecture9/src/lv/anna/TestInheritance.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Lecture9/src/lv/anna/TestPerson.java"/>
 </editors>
 <item historyLabel="horoscopeSigns.java" index="0">
-<position info="not_deleted" x="717" y="0"/>
+<position/>
 </item>
 <item historyLabel="horoscopeSigns.java" index="0">
-<position info="not_deleted" x="822" y="0"/>
+<position info="not_deleted" x="690" y="0"/>
 </item>
 <item historyLabel="horoscopeSigns.java" index="0">
-<position info="not_deleted" x="2456" y="0"/>
-</item>
-<item historyLabel="TestScannerInputArray.java" index="1">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="TestFile.java" index="2">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="TestReadFile.java" index="3">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="TestFile.java" index="2">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="TestReadFile.java" index="3">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="horoscopeSigns.java" index="0">
-<position info="not_deleted" x="2449" y="0"/>
-</item>
-<item historyLabel="TestReadFile.java" index="3">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="horoscopeSigns.java" index="0">
-<position info="not_deleted" x="2449" y="0"/>
-</item>
-<item historyLabel="TestReadFile.java" index="3">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="horoscopeSigns.java" index="0">
-<position info="not_deleted" x="2449" y="0"/>
-</item>
-<item historyLabel="TestReadFile.java" index="3">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="TestFileReader.java" index="4">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="TestReadFile.java" index="3">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="TestFileReader.java" index="4">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="horoscopeSigns.java" index="0">
-<position info="not_deleted" x="2449" y="0"/>
-</item>
-<item historyLabel="TestFileReader.java" index="4">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="horoscopeSigns.java" index="0">
-<position info="not_deleted" x="2449" y="0"/>
-</item>
-<item historyLabel="TestReadFile.java" index="3">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="horoscopeSigns.java" index="0">
-<position info="not_deleted" x="2449" y="0"/>
-</item>
-<item historyLabel="horoscopeSigns.java" index="0">
-<position info="not_deleted" x="1735" y="0"/>
+<position info="not_deleted" x="690" y="0"/>
 </item>
 <item historyLabel="horoscopeSigns.java" index="0">
 <position/>
 </item>
 <item historyLabel="horoscopeSigns.java" index="0">
-<position info="not_deleted" x="2447" y="0"/>
+<position info="not_deleted" x="690" y="0"/>
+</item>
+<item historyLabel="horoscopeSigns.java" index="0">
+<position info="not_deleted" x="311" y="0"/>
 </item>
 <item historyLabel="horoscopeSigns.java" index="0">
 <position/>
 </item>
 <item historyLabel="horoscopeSigns.java" index="0">
-<position info="not_deleted" x="1905" y="0"/>
+<position info="not_deleted" x="3145" y="0"/>
 </item>
-<item historyLabel="TestReadFile.java" index="3">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="TaskTestArray.java" index="5">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="TestArrayList.java" index="6">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="TestArraysWithObject.java" index="7">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="TestScannerInputArray.java" index="8">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="TestArraysWithObject.java" index="7">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="TestArrayList.java" index="6">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="TaskTestArray.java" index="5">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="TestReadFile.java" index="3">
+<item historyLabel="TestReadFile.java" index="1">
 <position info="not_deleted" x="0" y="0"/>
 </item>
 <item historyLabel="horoscopeSigns.java" index="0">
-<position info="not_deleted" x="2455" y="0"/>
+<position info="not_deleted" x="3145" y="0"/>
 </item>
 <item historyLabel="horoscopeSigns.java" index="0">
-<position info="not_deleted" x="1528" y="0"/>
+<position info="not_deleted" x="3135" y="9"/>
 </item>
 <item historyLabel="horoscopeSigns.java" index="0">
-<position info="not_deleted" x="2906" y="0"/>
+<position info="not_deleted" x="212" y="0"/>
+</item>
+<item historyLabel="TestReadFile.java" index="1">
+<position info="not_deleted" x="0" y="0"/>
 </item>
 <item historyLabel="horoscopeSigns.java" index="0">
-<position info="not_deleted" x="551" y="0"/>
+<position info="not_deleted" x="212" y="0"/>
 </item>
-<item historyLabel="horoscopeSigns.java" index="0">
-<position info="not_deleted" x="551" y="0"/>
-</item>
-<item historyLabel="horoscopeSigns.java" index="0">
-<position info="not_deleted" x="551" y="0"/>
-</item>
-<item historyLabel="horoscopeSigns.java" index="0">
+<item historyLabel="HoroscopeSigns.java" index="2">
 <position/>
 </item>
-<item historyLabel="horoscopeSigns.java" index="0">
-<position info="not_deleted" x="551" y="0"/>
+<item historyLabel="TestUserInputCheck.java" index="3">
+<position info="not_deleted" x="505" y="0"/>
 </item>
-<item historyLabel="horoscopeSigns.java" index="0">
-<position info="not_deleted" x="485" y="0"/>
+<item historyLabel="HoroscopeSigns.java" index="2">
+<position info="not_deleted" x="389" y="0"/>
 </item>
-<item historyLabel="horoscopeSigns.java" index="0">
-<position info="not_deleted" x="5272" y="0"/>
+<item historyLabel="TestUserInputCheck.java" index="3">
+<position info="not_deleted" x="505" y="0"/>
 </item>
-<item historyLabel="horoscopeSigns.java" index="0">
-<position info="not_deleted" x="5276" y="0"/>
+<item historyLabel="TestUserInputCheck.java" index="3">
+<position info="not_deleted" x="429" y="0"/>
 </item>
-<item historyLabel="horoscopeSigns.java" index="0">
-<position info="not_deleted" x="547" y="0"/>
+<item historyLabel="TestUserInputCheck.java" index="3">
+<position info="not_deleted" x="160" y="157"/>
 </item>
-<item historyLabel="horoscopeSigns.java" index="0">
-<position info="not_deleted" x="540" y="0"/>
+<item historyLabel="HoroscopeSigns.java" index="2">
+<position info="not_deleted" x="389" y="0"/>
 </item>
-<item active="true" historyLabel="horoscopeSigns.java" index="0">
-<position info="not_deleted" x="648" y="0"/>
+<item historyLabel="TestUserInputCheck.java" index="3">
+<position info="not_deleted" x="627" y="0"/>
+</item>
+<item historyLabel="HoroscopeSigns.java" index="2">
+<position info="not_deleted" x="389" y="0"/>
+</item>
+<item historyLabel="TestUserInputCheck.java" index="3">
+<position info="not_deleted" x="627" y="0"/>
+</item>
+<item historyLabel="TestUserInputCheck.java" index="3">
+<position info="not_deleted" x="626" y="0"/>
+</item>
+<item historyLabel="TestUserInputCheck.java" index="3">
+<position info="not_deleted" x="604" y="0"/>
+</item>
+<item historyLabel="TestUserInputCheck.java" index="3">
+<position/>
+</item>
+<item historyLabel="TestUserInputCheck.java" index="3">
+<position info="not_deleted" x="505" y="0"/>
+</item>
+<item historyLabel="HoroscopeSigns.java" index="2">
+<position info="not_deleted" x="389" y="0"/>
+</item>
+<item historyLabel="HoroscopeSigns.java" index="2">
+<position info="not_deleted" x="461" y="0"/>
+</item>
+<item historyLabel="HoroscopeSigns.java" index="2">
+<position info="not_deleted" x="5068" y="0"/>
+</item>
+<item historyLabel="TestUserDate.java" index="4">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="TestUserDate.java" index="4">
+<position info="not_deleted" x="358" y="0"/>
+</item>
+<item historyLabel="HoroscopeSigns.java" index="2">
+<position info="not_deleted" x="1341" y="0"/>
+</item>
+<item historyLabel="TestUserInputCheck.java" index="3">
+<position info="not_deleted" x="505" y="0"/>
+</item>
+<item historyLabel="TestUserDate.java" index="4">
+<position info="not_deleted" x="358" y="0"/>
+</item>
+<item historyLabel="HoroscopeSigns.java" index="2">
+<position info="not_deleted" x="2102" y="0"/>
+</item>
+<item historyLabel="TestUserDate.java" index="4">
+<position info="not_deleted" x="358" y="0"/>
+</item>
+<item historyLabel="TestInheritance.java" index="5">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="TestPerson.java" index="6">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="TestInheritance.java" index="5">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="TestPerson.java" index="6">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="TestInheritance.java" index="5">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="TestUserDate.java" index="4">
+<position info="not_deleted" x="358" y="0"/>
+</item>
+<item historyLabel="TestUserDate.java" index="4">
+<position info="not_deleted" x="332" y="0"/>
+</item>
+<item historyLabel="TestUserDate.java" index="4">
+<position info="not_deleted" x="286" y="0"/>
+</item>
+<item historyLabel="HoroscopeSigns.java" index="2">
+<position info="not_deleted" x="2102" y="0"/>
+</item>
+<item historyLabel="TestUserInputCheck.java" index="3">
+<position info="not_deleted" x="505" y="0"/>
+</item>
+<item active="true" historyLabel="TestUserDate.java" index="4">
+<position info="not_deleted" x="286" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -591,6 +607,18 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestPerson.java" tooltip="Lecture9/src/lv/anna/TestPerson.java">
+<persistable path="/Lecture9/src/lv/anna/TestPerson.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestInheritance.java" tooltip="Lecture9/src/lv/anna/TestInheritance.java">
+<persistable path="/Lecture9/src/lv/anna/TestInheritance.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestUserDate.java" tooltip="DailyHoroscope/src/lv/anna/horoscope/TestUserDate.java">
+<persistable path="/DailyHoroscope/src/lv/anna/horoscope/TestUserDate.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestUserInputCheck.java" tooltip="DailyHoroscope/src/lv/anna/horoscope/TestUserInputCheck.java">
+<persistable path="/DailyHoroscope/src/lv/anna/horoscope/TestUserInputCheck.java"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestScannerInputArray.java" tooltip="Lecture11/src/lv/anna/TestScannerInputArray.java">
 <persistable path="/Lecture11/src/lv/anna/TestScannerInputArray.java"/>
 </file>
@@ -623,18 +651,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="horoscopeSigns.java" tooltip="DailyHoroscope/src/lv/anna/horoscope/horoscopeSigns.java">
 <persistable path="/DailyHoroscope/src/lv/anna/horoscope/horoscopeSigns.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="horoscope.java" tooltip="DailyHoroscope/src/lv/anna/horoscope/horoscope.java">
-<persistable path="/DailyHoroscope/src/lv/anna/horoscope/horoscope.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="vendingMachine.java" tooltip="VendingMachine/src/vendingMachine/vendingMachine.java">
-<persistable path="/VendingMachine/src/vendingMachine/vendingMachine.java"/>
-</file>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditorNoSource" name="Object.class" tooltip="java.lang.Object">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=League/\/usr\/lib\/jvm\/java-8-openjdk-amd64\/jre\/lib\/rt.jar&lt;java.lang(Object.class"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestTeamAndLeague.java" tooltip="League/src/lv/anna/test/TestTeamAndLeague.java">
-<persistable path="/League/src/lv/anna/test/TestTeamAndLeague.java"/>
 </file>
 </mruList>
 </workbench>

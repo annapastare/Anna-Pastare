@@ -1,0 +1,21 @@
+package lv.anna.horoscope;
+
+import java.util.Scanner;
+
+public class TestUserDate {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		int date;
+		String month;
+		Scanner sc = new Scanner (System.in);
+		System.out.println("Write your birth date: ");
+		
+		while(date >= 31);
+		
+
+	}
+
+}
